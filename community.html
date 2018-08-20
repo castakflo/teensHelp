@@ -1,43 +1,60 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <link rel="stylesheet" href="decorate.css">
+    <link rel="stylesheet" href="styles.css">
     <meta charset="utf-8">
     <title></title>
   </head>
   <body>
-<!-- What's seen on the page -->
-    <div class= "typewriter">
-      <h1 align="center" id="title">Helping Low Income Communities with Food </h1>
+    <!-- The overlay -->
+        <div id="myNav" class="overlay">
+
+          <!-- Button to close the overlay navigation -->
+          <a href="javascript:void(0)" class="closebtnOverlay" onclick="closeNav()">×</a>
+
+          <!-- Overlay content -->
+          <ul id= "list" class="overlay-content">
+            <li> <a href= "index.html">Homepage</a> </li>
+            <li> <a href= "environment.html">Environment</a> </li>
+            <li> <a href= "culturalAwareness.html">Cultural Awareness</a> </li>
+            <li> <a href= "study.html">Fostering a Study Society</a></li>
+            <li> <a href= "community.html">Low-Income Community Help</a></li>
+            <li> <a href= "aboutUs.html"> About Us </a></li>
+            <li> <a href= "ideas.html">The Public's Ideas</a></li>
+          </ul>
     </div>
 
-    <ul id= "list" class="overlay-content">
-      <li> <a href= "index.html">Homepage</a> </li>
-      <li> <a href= "environment.html">Environment</a> </li>
-      <li> <a href= "culturalAwareness.html">Cultural Awareness</a> </li>
-      <li> <a href= "study.html">Fostering a Study Society</a></li>
-      <li> <a href= "community.html">Low-Income Community Help</a></li>
-      <li> <a href= "aboutUs.html"> About Us </a></li>
-      <li> <a href= "ideas.html">The Public's Ideas</a></li>
-    </ul>
+    <!-- Use any element to open/show the overlay navigation menu -->
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()">☰</span>
+
+
+<!-- What's seen on the page -->
+    <div class= "typewriter">
+      <h1 align="center" id="title">Helping Low Income Communities find Food </h1>
     </div>
 
 
 <div id="lastPic" class="clearfix">
-    <img src="sleeping man.jpg" alt"man" height="200" width="300">
+    <img src="sleepingMan.jpg" alt"man" height="200" width="300">
      <p style="text-align:center;"> Food insecurity is a major worldwide problem. 842 Million people worldwide don't have enough to eat. The vast majority of hungry people live in developing countries. However, in the United States, 1 in 8 Americans were food insecure, including 13 million chidren. Food insecurity disproportionally affects people of colour, with 1 in 4 African American children, and 1 in 4 Latinx children consistently struggling with hunger. Combatting hunger is even harder for these groups, as poverty rates for African Americans was more than twice that of white people.
        <a href="http://www.feedingamerica.org/take-action/?_ga=2.240699776.2029355445.1534183074-1345602603.1534183074">Click here for more information on how you can get involved!</a>
      </p>
-   </div>
-   <br>
+</div>
 
+<br>
 
-<h2> With your help, we can help to assure all communities have access to healthy foods</h2>
-<a href="http://www.feedingamerica.org/take-action/?_ga=2.240699776.2029355445.1534183074-1345602603.1534183074">For more information, click here</a>
-<a href= "https://www.disabled-world.com/fitness/nutrition/foodsecurity/"> You can also click here</a>
+<div id="lastPic1" class="clearfix">
+  <img src="sleepingMan.jpg" alt"man" height="200" width="300">
+   <p style="text-align:center;"> With your help, we can help to assure all communities have access to healthy foods. For more information, </p>
+    <a href="http://www.feedingamerica.org/take-action/?_ga=2.240699776.2029355445.1534183074-1345602603.1534183074">For more information, click here</a>
+    <p> or </p>
+    <a href= "https://www.disabled-world.com/fitness/nutrition/foodsecurity/"> here</a>
+</div>
+
 <br>
-<br>
-<p>sources: <a href="http://www.feedingamerica.org/hunger-in-america/">http://www.feedingamerica.org/hunger-in-america/</a>
+
+<footer>
+<a href="http://www.feedingamerica.org/hunger-in-america/">http://www.feedingamerica.org/hunger-in-america/</a>
             <br>
             <br>
           <a href="http://www.feedingamerica.org/hunger-in-america/african-american.html">http://www.feedingamerica.org/hunger-in-america/african-american.html</a>
@@ -47,41 +64,9 @@
             <br>
             <br>
           <a href="https://www.disabled-world.com/fitness/nutrition/foodsecurity/">https://www.disabled-world.com/fitness/nutrition/foodsecurity/</a> </p>
-  <!-- <span style="font-size:30px;cursor:pointer" onclick="openNav()">☰</span>
 
-     <!-- Content seen on the page-->
-     <!-- <br>
+</footer>
 
-     <div class= "typewriter">
-       <h1 align="center" id="title">ENVIRONMENTAL PROJECTS!</h1>
-     </div>
-     <br>
-    <!-- Project #1-->
-   	 <!-- <div id="lastPic" class="clearfix">
-          <img src="phone.jpg" alt="Shower Playlist" height="200" width="300">
-          <p style="text-align:center;"> We went on DoSomething.com and found this amazing idea. Make a 5 minute shower playlist to help conserve water.
-            <a href="https://www.dosomething.org/us/campaigns/shower-songs">Click here for more information on how you can get involved!</a>
-          </p>
-        </div>
-        <br> -->
-
-     <!--Project #2 -->
-       <!-- <div id="lastPic" class="clearfix">
-          <img src="https://www.dosomething.org/sites/default/files/styles/1440x810/public/images/CleanupDrills_hero_landscape.jpg?itok=_dAwj0Dz" alt="Recycle competition" height="200" width="300">
-          <p style="text-align:center;"> We went on DoSomething.com and found another amazing idea. You can challenge your friends to picking up trash and recyclable products and compete in a relay race.
-            <a href="https://www.dosomething.org/profiles/dosomething/themes/dosomething/paraneue_dosomething/dist/app.css?pc0mhd">Click here for more information on how you can get involved!</a>
-          </p>
-        </div>
-        <br>
-
-        <div id="lastPic" class="clearfix">
-           <img src="candyWrapper.jpg" alt="candyWrapper jewelery" height="200" width="300">
-           <p style="text-align:center;"> As Halloween approaches, think about saving all those candy wrappers and even collecting some from friends to make bracelets out of them. Not only are you keeping wrappers out of the trash, but you are getting something cool out of it. Look below for a video teaching you what to do with your wrappers.</p>
-         </div>
-
-         <div id="lastPic" class="clearfix" align=center>
-           <iframe width="560" height="315" src="https://www.youtube.com/embed/jwU5FfndNj4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-         </div> --> --> -->
-
+<script src="scripts.js"></script>
   </body>
 </html>
