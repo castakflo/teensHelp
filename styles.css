@@ -347,6 +347,7 @@ body{
   boarder: 5px dotted limegreen;
   font-size: 64px; */
   display: none;
+  background-color:white;
 }
 
 #main{
