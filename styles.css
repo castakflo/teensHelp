@@ -5,6 +5,12 @@ body{
   margin: 40px;
   margin-top: 30px; /* Add a top margin to avoid content overlay */
 }
+
+#picHannah{
+  margin-left:500px;
+  margin-right: auto;
+}
+
 #list, #list2{
 list-style: none;
 overflow: hidden;
