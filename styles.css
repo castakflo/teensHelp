@@ -6,6 +6,18 @@ body{
   margin-top: 30px; /* Add a top margin to avoid content overlay */
 }
 
+#lastPic1{
+display: inline-block;
+float: center;
+margin-left: 70px;
+margin-right: 0px;
+height:75%;
+padding-right: 10px;
+
+background-color: rgba(255,255,255);
+/* width: 90%; */
+}
+
 #picHannah{
   margin-left:500px;
   margin-right: auto;
