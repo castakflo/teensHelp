@@ -337,12 +337,12 @@ body{
   font-family: 'Quicksand', sans-serif;
 }
 
-#Suggestions{
+#Suggestions, #Volunteering{
   display: block;
   font-size: 24px;
 }
 
-#Lists{
+#Lists, #Opportunities{
   /* color:pink;
   boarder: 5px dotted limegreen;
   font-size: 64px; */
@@ -350,6 +350,16 @@ body{
   background-color:white;
 }
 
+#centerText{
+  display: inline-block;
+  align:center;
+  text-align: center;
+}
+
+#centerImg{
+  margin-left:290px;
+  margin-right:auto;
+}
 #main{
   color:black;
   font-size:20px;
