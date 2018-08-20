@@ -401,7 +401,7 @@ body{
 /* Three columns side by side */
 .column{
     float: left;
-    width: 25%;
+    width: 23%;
     margin-bottom: 16px;
     padding: 0 8px;
 }
@@ -414,18 +414,17 @@ body{
     }
 }
 
-/* Add some shadows to create a card effect */
-.card {
-    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
-    text-align:center;
+h2{
+  text-align: left;
+  margin-right: auto;
+  margin-left: 70px;
 }
-
 /* Some left and right padding inside the container */
 .container {
     padding: 0 16px;
     text-align: center;
-    width: 400px;
-    height: 200px;
+    width: 130%;
+    height: 50%;
     /* margin-left: 50%;
     margin-right: 50%; */
 }
@@ -439,6 +438,17 @@ body{
 
 .title {
     color: grey;
+    align: left;
+    text-align: center;
+    margin-right: 70px;
+    margin-left: 1px;
+}
+
+.blurb{
+  width: 75%;
+  align: left;
+  margin-right: auto;
+  margin-left: 10px;
 }
 
 
