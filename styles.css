@@ -149,7 +149,9 @@ img {
 }
 
 .clearfix {
-    overflow: auto; /* use with float */
+    /* overflow: auto; /* use with float */ */
+    width: 1216.02px;
+    height: 220px;
 }
 
 .typewriter h1 {
