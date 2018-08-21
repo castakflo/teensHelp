@@ -531,11 +531,11 @@ overflow: hidden;
   50% { border-color: orange; }
 }
 
-#footer{
+/* #footer{
   display: inline-block;
   margin-left: 500px;
   margin-right: 10px;
-}
+} */
 
 #allIds {
   display: block;
