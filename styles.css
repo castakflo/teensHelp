@@ -537,6 +537,12 @@ overflow: hidden;
   margin-right: 10px;
 }
 
+#SECONDfooter{
+  display: inline-block;
+  margin-left: 400px;
+  margin-right: 10px;
+}
+
 #allIds {
   display: block;
   margin: 10px;
