@@ -6,6 +6,13 @@ body{
   margin-top: 30px; /* Add a top margin to avoid content overlay */
 }
 
+#lastPic{
+float:center;
+height:75%;
+background-color: rgba(255,255,255,0.5);
+/* width: 90%; */
+}
+
 #lastPic1{
 display: inline-block;
 float: center;
@@ -66,13 +73,6 @@ font-size:20px;
  font-family: Times, Times New Roman, Georgia, serif;
 width: 80vw;
 margin:40px;
-}
-
-#lastPic{
-float:center;
-height:75%;
-background-color: rgba(255,255,255,0.5);
-/* width: 90%; */
 }
 
 #footer{
@@ -149,7 +149,9 @@ img {
 }
 
 .clearfix {
-    overflow: auto; /* use with float */
+    /* overflow: auto; /* use with float */ */
+    width: 1216.02px;
+    height: 220px;
 }
 
 .typewriter h1 {
@@ -184,11 +186,9 @@ body {
   margin-bottom: 5px;
   background-size: cover;
 }
-
 #list{
   text-align: center;
 }
-
 /*
 .banner{
   background-color: white;
@@ -199,35 +199,30 @@ body {
   max-width: 70vw center;
   clear: left;
 }
-
 #lastPic {
   background-color: white;
   font-size: 20px;
   max-width: 70vw center;
   clear: left;
 }
-
 #secondPic{
   background-color: white;
   font-size: 20px;
   max-width: 70vw center;
   clear: left;
 }
-
 img {
   padding: 10px;
   float: left;
   margin: 10px;
   background-color: white;
 }
-
 /* Add a black background color to the top navigation */
 /*
 .menu {
     background-color: white;
     overflow: hidden;
 }
-
 /* Style the links inside the navigation bar */
 /*
 .menu a {
@@ -238,7 +233,6 @@ img {
     padding: 14px 53px;
     font-size: 17px;
 }
-
 /* Change the color of links on hover */
 .menu a:hover {
     background-color: #ddd;
