@@ -75,12 +75,12 @@ width: 80vw;
 margin:40px;
 }
 
-#footer{
+/* #footer{
     display: table;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-}
+} */
 
 
 /* The Overlay (background) */
@@ -531,11 +531,11 @@ overflow: hidden;
   50% { border-color: orange; }
 }
 
-/* #footer{
+#footer{
   display: inline-block;
   margin-left: 500px;
   margin-right: 10px;
-} */
+}
 
 #allIds {
   display: block;
