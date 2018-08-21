@@ -6,6 +6,13 @@ body{
   margin-top: 30px; /* Add a top margin to avoid content overlay */
 }
 
+#lastPic{
+float:center;
+height:75%;
+background-color: rgba(255,255,255,0.5);
+/* width: 90%; */
+}
+
 #lastPic1{
 display: inline-block;
 float: center;
@@ -66,13 +73,6 @@ font-size:20px;
  font-family: Times, Times New Roman, Georgia, serif;
 width: 80vw;
 margin:40px;
-}
-
-#lastPic{
-float:center;
-height:75%;
-background-color: rgba(255,255,255,0.5);
-/* width: 90%; */
 }
 
 #footer{
