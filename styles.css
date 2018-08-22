@@ -6,6 +6,12 @@ body{
   margin-top: 30px; /* Add a top margin to avoid content overlay */
 }
 
+#footerStudy{
+  display: inline-block;
+  margin-left: 500px;
+  margin-right: 10px;
+}
+
 #lastPic{
 float:center;
 height:75%;
